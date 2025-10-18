@@ -8,7 +8,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'BokingApp',
       theme: ThemeData(useMaterial3: true),
-      home: const BookingsPage(), // أو UnitsPage لو لسه
+      home: const BookingsPage(),
     );
   }
 }
